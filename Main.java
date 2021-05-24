@@ -47,20 +47,6 @@ public class Main implements Runnable
         int dump=0;
         while(GoOn)
         {
-            /*while (true)
-            {
-               if(dump==6)   d = S.nextInt();
-                try {
-                    d = S.nextInt();
-                    if(d==1||d==2)  break;
-                    }
-                catch (InputMismatchException e)
-                {
-                    dump=6;
-                    System.out.println("INVALID ARGUMENT.\n  ENTER 1 OR 2");
-                    continue;
-                }
-            }*/
             d = S.nextInt();
             if (d == 1)
             {
